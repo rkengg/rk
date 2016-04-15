@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>R K Engineering Works</title>
+    <title>R K Engineering Works : Leading Industrial Elevator Manufacturing Industry in Jaipur</title>
     <!--meta-->
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2"/>
@@ -80,22 +80,22 @@
                                 </a>
                             </li>
                             <li class="">
-                                <a href="#" title="About">
+                                <a href="#about" title="About">
                                     ABOUT
                                 </a>
                             </li>
                             <li class="">
-                                <a href="" title="Work">
-                                    WORK
+                                <a href="#products" title="Work">
+                                    PRODUCTS
                                 </a>
                             </li>
                             <li class="">
-                                <a href="" title="Services">
+                                <a href="#services" title="Services">
                                     SERVICES
                                 </a>
                             </li>
-                            <li class="">
-                                <a href="index.html" title="Contact">
+                            <li>
+                                <a href="#contact" title="Contact">
                                     CONTACT
                                 </a>
                             </li>
@@ -112,22 +112,22 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="#" title="About">
+                                    <a href="#about" title="About">
                                         ABOUT
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="#" title="Work">
-                                        WORK
+                                    <a href="#products" title="Work">
+                                        PRODUCT
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="#" title="Services">
+                                    <a href="#services" title="Services">
                                         SERVICES
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="#" title="Contact">
+                                    <a href="#contact" title="Contact">
                                         CONTACT
                                     </a>
                                 </li>
@@ -233,9 +233,9 @@
     </div>
     <!--/-->
 
-    <div class="theme-page">
+    <div class="theme-page" >
         <div class="clearfix">
-            <div class="row full-width gray page-padding-top-section">
+            <div class="row full-width gray page-padding-top-section" id="products">
                 <div class="row">
                     <h2 class="box-header">OUR PRODUCTS</h2>
 
@@ -269,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="row page-margin-top-section">
+            <div class="row page-margin-top-section" id="about">
                 <div class="row">
                     <h2 class="box-header">ABOUT US</h2>
 
@@ -365,7 +365,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row page-margin-top-section padding-bottom-66">
+            <div class="row page-margin-top-section padding-bottom-66" id="services">
                 <h2 class="box-header">OUR SERVICES</h2>
 
                 <p class="description align-center"> We provide manufacturing, service, maintenance and delivery services for various industry class structures such as elevators and plants.</p>
@@ -401,54 +401,28 @@
                     </div>
                 </div>
             </div>
-            <div class=" row gray full-width page-padding-top-section padding-bottom-66" style="display: none">
-                <div class="row">
-                    <h2 class="box-header">WE WORK WITH</h2>
 
-                    <div class="our-clients-list-container page-margin-top">
-                        <ul class="our-clients-list">
-                            <li>
-                                <img src="images/logos/logo_01.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_02.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_03.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_04.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_05.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_06.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_06.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_05.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_04.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_03.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_02.png" alt="">
-                            </li>
-                            <li>
-                                <img src="images/logos/logo_01.png" alt="">
-                            </li>
-                        </ul>
-                        <div class="our-clients-pagination"></div>
+        </div>
+    </div>
+    <div class="row gray full-width page-margin-top-section page-padding-top-section padding-bottom-66" id="contact">
+        <h2 class="box-header">CONTACT US</h2>
+        <div class="row">
+            <div class="contact-form  margin-top-30">
+                <form action="">
+                    <div class="column column-1-2">
+                        <input type="text" name="name" placeholder="Name" />
+                        <input type="text" name="email" placeholder="Email Address"/>
                     </div>
-                </div>
+                    <div class="column column column-1-2">
+                        <textarea style="height: 120px;" name="message" placeholder="Your message   "></textarea>
+                    </div>
+                    <div class="column column-1-1  margin-top-30">
+                        <input class="more" type="submit" value="SEND" style="margin-left: 20%; width:50%;"/>
+                    </div>
+                </form>
             </div>
         </div>
+
     </div>
     <div class="row yellow full-width padding-top-bottom-30">
         <div class="row">
@@ -504,5 +478,23 @@
 <script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/odometer.min.js"></script>
+<script>
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                console.log(target);
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 50
+                    }, 500);
+                    return false;
+                }
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
