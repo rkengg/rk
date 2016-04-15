@@ -411,7 +411,7 @@
                 <form action="">
                     <div class="column column-1-2">
                         <input type="text" name="name" placeholder="Name" />
-                        <input type="text" name="email" placeholder="Email Address"/>
+                        <input type="text" name="_replyto" placeholder="Email Address"/>
                     </div>
                     <div class="column column column-1-2">
                         <textarea style="height: 120px;" name="message" placeholder="Your message   "></textarea>
@@ -492,6 +492,19 @@
                     return false;
                 }
             }
+        });
+        $(".contact-form form").submit(function(e){
+            e.preventDefault();
+            var xdata =$(this).serialize();
+            $.ajax({
+                url: "https://formspree.io/rkew302013@gmail.com",
+                method: "POST",
+                data: xdata,
+                dataType: "json",
+                success: function(data){
+                    alert("Sent, we'll be in touch soon");
+                }
+            });
         });
     });
 
