@@ -92,7 +92,7 @@ pre
 	background: url('../images/code_background.png') repeat;
 	text-shadow: 0 1px 0 #FFF;
 	zoom:1;
-	filter: dropshadow(color=#ffffff, offx=0, offy=1); 
+	filter: dropshadow(color=#ffffff, offx=0, offy=1);
 	padding: 0 5px;
 	margin: 0;
 	overflow: auto;
@@ -122,7 +122,7 @@ input, textarea
 	color: #444;
 	margin: 0;
 }
-input[type='number'] 
+input[type='number']
 {
    appearance: textfield;
 	-moz-appearance: textfield;
@@ -130,7 +130,7 @@ input[type='number']
 	-webkit-appearance: none;
 }
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button 
+input::-webkit-inner-spin-button
 {
     -webkit-appearance: none;
 }
@@ -416,13 +416,13 @@ h6.box-header:after
 }
 .header h1
 {
-	font-size: 37px;
+	font-size: 32px;
 	font-weight: 900;
 	color: #422874;
 	line-height: 1;
 }
 .header h1 a
-{	
+{
 	color: #422874;
 }
 .header h1 a:hover
@@ -521,7 +521,7 @@ h6.box-header:after
 .sf-menu li, .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active
 {
 	background: none #fff;
-	
+
 }
 .sf-menu li:hover a, .sf-menu li:hover a:visited
 {
@@ -594,14 +594,14 @@ body .header-container .menu-container .sf-menu>li:first-child a
 {
 	border-top: none;
 }
-.menu-container .sf-menu li ul li a:hover, 
+.menu-container .sf-menu li ul li a:hover,
 .menu-container .sf-menu li ul li.selected a,
 .menu-container .sf-menu li:hover ul li.selected a,
-.menu-container .sf-menu li:hover ul li.selected ul li a:hover, 
-.menu-container .sf-menu li:hover ul li ul li.selected a, 
+.menu-container .sf-menu li:hover ul li.selected ul li a:hover,
+.menu-container .sf-menu li:hover ul li ul li.selected a,
 .menu-container .sf-menu li:hover ul li.selected ul li.selected a,
 .menu-container .sf-menu li:hover ul li.sfHover>a
-{	
+{
 	color: #422874;
 }
 ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul,
@@ -687,7 +687,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	margin-top: 0;
 }
 .vertical-menu li a
-{	
+{
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
@@ -779,7 +779,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     visibility: hidden;
     clear: both;
 }
-.column 
+.column
 {
 	position: relative;
 	float: left;
@@ -1113,7 +1113,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	margin-top: 7px;
 	font-family: 'Raleway';
 	font-weight: 500;
-	font-size: 11px; 
+	font-size: 11px;
 	color: #FFF;
 	line-height: 16px;
 	letter-spacing: 1px;
@@ -1248,7 +1248,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	background-size: cover;
 }
 /* --- counters --- */
-span.number, 
+span.number,
 span.odometer.number
 {
 	margin-top: 10px;
@@ -1258,7 +1258,7 @@ span.odometer.number
 	color: #FFF;
 	visibility: visible;
 }
-span.number:after, 
+span.number:after,
 span.odometer.number:after
 {
 	display: block;
@@ -1410,13 +1410,13 @@ span.odometer.number:after
 }
 /* --- single post --- */
 .post.single p
-{	
+{
 	font-family: "Raleway";
     font-size: 14px;
     line-height: 24px;
 }
 .post.single blockquote, .post.single p, .post.single h3, .post.single h4
-{	
+{
 	margin-top: 24px;
 }
 /* --- taxonomies --- */
@@ -1464,7 +1464,7 @@ span.odometer.number:after
 	margin-top: 0;
 }
 .buttons li a
-{	
+{
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
@@ -1615,11 +1615,11 @@ span.odometer.number:after
 {
 	color: #999;
 }
-::-webkit-input-placeholder 
+::-webkit-input-placeholder
 {
 	color: #999;
 }
-:-moz-placeholder 
+:-moz-placeholder
 {
 	color: #999;
     opacity:  1;
@@ -1629,7 +1629,7 @@ span.odometer.number:after
 	color: #999;
     opacity:  1;
 }
-:-ms-input-placeholder 
+:-ms-input-placeholder
 {
 	color: #999;
 }
@@ -1644,7 +1644,7 @@ span.odometer.number:after
 .ui-tooltip-error .ui-tooltip-content,
 .ui-tooltip-success .ui-tooltip-content
 {
-	border:none; 
+	border:none;
 }
 .ui-tooltip-content
 {
@@ -1674,7 +1674,7 @@ span.odometer.number:after
     height: 90px;
 }
 .avatar-1
-{	
+{
 	background-image: url("../images/samples/90x90/users/image_01.png");
 }
 .avatar-2
@@ -1733,7 +1733,7 @@ span.odometer.number:after
 	border-bottom: 1px solid #E2E6E7;
 	padding: 24px 0;
 }
-#comments-list .children 
+#comments-list .children
 {
     clear: both;
     float: left;
@@ -2003,7 +2003,7 @@ li.template-bullet:before
 }
 .accordion .ui-accordion-header.ui-state-active h5
 {
-	color: #FFF;	
+	color: #FFF;
 }
 .accordion .ui-accordion-header.ui-state-active .ui-accordion-header-icon
 {
@@ -2117,7 +2117,7 @@ li.template-bullet:before
 {
 	background: #422874;
 	border: 2px solid #422874;
-	margin-left: 1px;	
+	margin-left: 1px;
 }
 .social-icons.yellow li:hover
 {
@@ -2184,11 +2184,11 @@ li.template-bullet:before
 {
 	color: #858d94;
 }
-.search .search-input::-webkit-input-placeholder 
+.search .search-input::-webkit-input-placeholder
 {
 	color: #858d94;
 }
-.search .search-input:-moz-placeholder 
+.search .search-input:-moz-placeholder
 {
 	color: #858d94;
     opacity:  1;
@@ -2198,7 +2198,7 @@ li.template-bullet:before
 	color: #858d94;
     opacity:  1;
 }
-.search .search-input:-ms-input-placeholder 
+.search .search-input:-ms-input-placeholder
 {
 	color: #858d94;
 }
@@ -2233,7 +2233,7 @@ li.template-bullet:before
 	position: relative;
 	text-align: left;
 }
-.ui-slider .ui-slider-handle 
+.ui-slider .ui-slider-handle
 {
 	position: absolute;
 	z-index: 2;
@@ -2241,7 +2241,7 @@ li.template-bullet:before
 	-ms-touch-action: none;
 	touch-action: none;
 }
-.ui-slider .ui-slider-range 
+.ui-slider .ui-slider-range
 {
 	position: absolute;
 	z-index: 1;
@@ -2252,24 +2252,24 @@ li.template-bullet:before
 }
 /* support: IE8 - See #6727 */
 .ui-slider.ui-state-disabled .ui-slider-handle,
-.ui-slider.ui-state-disabled .ui-slider-range 
+.ui-slider.ui-state-disabled .ui-slider-range
 {
 	filter: inherit;
 }
-.ui-slider-horizontal .ui-slider-handle 
+.ui-slider-horizontal .ui-slider-handle
 {
 	margin-left: -.6em;
 }
-.ui-slider-horizontal .ui-slider-range 
+.ui-slider-horizontal .ui-slider-range
 {
 	top: 0;
 	height: 100%;
 }
-.ui-slider-horizontal .ui-slider-range-min 
+.ui-slider-horizontal .ui-slider-range-min
 {
 	left: 0;
 }
-.ui-slider-horizontal .ui-slider-range-max 
+.ui-slider-horizontal .ui-slider-range-max
 {
 	right: 0;
 }
@@ -2312,12 +2312,12 @@ li.template-bullet:before
 	text-decoration: none;
 	cursor: pointer;
 }
-.ui-selectmenu-button span.ui-icon 
+.ui-selectmenu-button span.ui-icon
 {
 	right: 0;
 	position: absolute;
 }
-.ui-selectmenu-button span.ui-selectmenu-text 
+.ui-selectmenu-button span.ui-selectmenu-text
 {
 	text-align: left;
 	display: block;
@@ -2544,8 +2544,8 @@ li.template-bullet:before
 /* --- buttons --- */
 .more,
 .more[type="submit"]
-{	
-	color: #FFF; 
+{
+	color: #FFF;
 	font-family: 'Raleway';
 	font-size: 12px;
 	font-weight: 700;
@@ -2565,7 +2565,7 @@ li.template-bullet:before
 }
 .more:hover
 {
-	color: #000;	
+	color: #000;
 	background: transparent;
 	opacity: 1;
 }
@@ -2590,7 +2590,7 @@ li.template-bullet:before
 }
 /* --- copyright row --- */
 .copyright
-{	
+{
 	color: #999;
 	font-family: 'Raleway';
 	line-height: 24px;
@@ -2725,8 +2725,8 @@ div.pp_default .pp_close:hover
 	transition: background 0.2s, color 0.2s;
 }
 .tp-rightarrow.preview1:after
-{	
-	content: 'a';  
+{
+	content: 'a';
 	right: 0;
 	-moz-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
@@ -2739,7 +2739,7 @@ div.pp_default .pp_close:hover
 {
 	content: 'a';
 }
-.tparrows.preview1:hover:after 
+.tparrows.preview1:hover:after
 {
 	background: #FFF;
 	color: #666;
@@ -2753,7 +2753,7 @@ div.pp_default .pp_close:hover
 {
 	height: 12px !important;
 }
-.tp-bullets.preview1 .bullet 
+.tp-bullets.preview1 .bullet
 {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -2765,7 +2765,7 @@ div.pp_default .pp_close:hover
 	margin-bottom: 0px !important;
 }
 .tp-bullets.preview1 .bullet:hover,
-.tp-bullets.preview1 .bullet.selected 
+.tp-bullets.preview1 .bullet.selected
 {
 	background: #FFF !important;
 	width: 11px !important;
@@ -2827,15 +2827,15 @@ input[type='radio']
 {
 	-webkit-appearance: radio;
 }
-:focus 
+:focus
 {
 	outline:none;
 }
-::-moz-focus-inner 
+::-moz-focus-inner
 {
 	border:0;
 }
-body.lock-position 
+body.lock-position
 {
 	position: fixed;
 	overflow: hidden;
